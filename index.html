@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderer</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="topBar">
+        <h1 id="titleSite">Wanderer</h1>
+        <button class="btsNav" onclick="navegar('inicio')">Início</button>
+        <button class="btsNav" onclick="navegar('sobre')">Sobre</button>
+        <button class="btsNav" onclick="navegar('download')">Download</button>
+    </div>
+
+    <section id="inicio">
+        <div class="container">
+            <h2 class="titles">Seja bem-vindo</h2>
+            <p class="paragrafos">Você está no site oficial para Download do Wanderer, aproveite o Wanderer ao máximo!</p>
+            <div id="barDS">
+                <button class="btsDowESob" onclick="navegar('download')">Download</button>
+                <button class="btsDowESob" onclick="navegar('sobre')">Sobre</button>
+            </div>
+        </div>
+    </section>
+    <div id="recursosBarPrincipal">
+        <h1 class="titulosSection">O que você pode esperar</h1>
+        <div id="recursosBar">
+            <div class="recursosinfo">
+                <h3 class="titlesTopic"><svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                   Faça pesqusas</h3>
+                <p class="paragrafosTopic">Pesquise o que quiser de um jeito símples e intuitivo com mecânismos de busca conhecidos.</p>
+            </div>
+            <div class="recursosinfo">
+                <h3 class="titlesTopic"><svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="13" height="8" rx="1"></rect><rect x="8" y="8" width="13" height="8" rx="1"></rect></svg>                  
+                    Múltiplas guias</h3>
+                <p class="paragrafosTopic">Acesse vários sites de uma vez com multiplas guias.</p>
+            </div>
+            <div class="recursosinfo">
+                <h3 class="titlesTopic"><svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><text x="12" y="16" text-anchor="middle" fill="currentColor" font-family="monospace" font-size="16">&lt;/&gt;</text></svg>                  
+                    Código aberto</h3>
+                <p class="paragrafosTopic">O Wanderer é de còdigo aberto e um projeto independente, você pode melhora-lo.</p>
+            </div>
+        </div>
+    </div>
+    <section id="sobre">
+        <h1 class="titulosSection">Sobre o Wanderer</h1>
+        <div class="topicos">
+            <h2 class="titleSobre">Onde o Wanderer foi desenvolvido?</h2>
+            <p class="paragrafosTopic">O Wanderer foi desenvolvido em um framework do JavaScript chamado Electron, ele permite desenvolver aplicações desktop utilizado HTML, CSS e JavaScript.</p>
+        </div>
+        <div class="topicos">
+            <h2 class="titleSobre">Qual a proposta do Wanderer?</h2>
+            <p class="paragrafosTopic">A proposta do Wanderer é ser um navegador simples onde qualquer um que tenha conhecimento em desenvolvimento Web possa modificar ou fazer a sua versão do seu jeito, assim, o Wanderer pode evoluir mais rápido com a ajuda da comunidade.</p>
+        </div>
+        <div class="topicos">
+            <h2 class="titleSobre">Quem desenvolveu o Wandererw</h2>
+            <p class="paragrafosTopic">O Wanderer foi desenvolvido por apenas uma pessoa que ainda tem muito o que aprender, sendo esse o seu maior projeto até agora.</p>
+        </div>
+    </section>
+
+    <section id="download">
+        <h1 class="titulosSection">Faça o download</h1>
+        <div class="barDown">
+            <h2 class="titleSobre">Download Windows</h2>
+            <p class="paragrafosTopic">Baixe a versão para Windows do Wanderer.</p>
+            <button class="download" onclick="baixar()">Download da versão mais recente</button>
+        </div>
+    </section>
+    <h1 id="final">O projeto contém a licença MIT - Desenvolvido por HOYOL</h1>
+</body>
+</html>
