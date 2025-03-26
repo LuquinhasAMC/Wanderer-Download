@@ -102,6 +102,7 @@ section{
 }
 
 .titulosSection{
+    box-sizing: border-box;
     color: rgb(199, 199, 199);
     margin-bottom: 10px;
     margin-top: 20px;
